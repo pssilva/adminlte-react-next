@@ -4,7 +4,7 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head />
-      <body>
+      <body className={`hold-transition skin-blue sidebar-mini`}>
         <Main />
         <NextScript />
       </body>
