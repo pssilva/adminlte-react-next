@@ -204,4 +204,9 @@ NOTA: para deixar evidenciado, segue a [indexação da playlist](./docs/indexaco
 
 ---
 
+[<a id="REACTJS-DO-ZERO">REACTJS DO ZERO – Transformando um HTML e CSS em React</a>] | Mão na massa - 016. Direção: Autor do Vídeo no Canal do youtube: @SejaDevProdução: Autor do Vídeo no Canal do youtube: @SejaDev. Realização: Autor do Vídeo no Canal do youtube: @SejaDev. Roteiro: Autor do Vídeo no Canal do youtube: @SejaDev. Fotografia: N/A. Intérpretes: N/A. Local: Autor do Vídeo no Canal do youtube: @SejaDev, Transmitido ao vivo em 9 de nov. de 2022. Indicação do suporte físico e duração entre parênteses, demais características (STREAM, som, cor, legenda, tradução, stream). Disponível em: < https://www.youtube.com/live/_pldhSaJ-nw?si=QSxmrHFQxbnP7qZs >. Acesso em: 17 mai. 2024.
+
+
+---
+
 [<a id="CURSO-INTENSIVO-de-React-e-Next-13">FREEMAN, Adam</a>]: Pro React 16. 1 Ed. London, UK: Apress, © Adam Freeman 2019. (e-ISBN 978-1-4842-4451-7). Disponível em: < https://a.co/d/3bhi1wk >. Acesso em: 16 mai.2024.
