@@ -98,10 +98,11 @@ Segue abaixo (não se limita) os objetivos do presente proejto:
 
 - [X] ~~Formatando documentação README.md~~
 - [X] ~~Indexação do vídeo: [CURSO INTENSIVO de React e Next 13](#CURSO-INTENSIVO-de-React-e-Next-13)~~ (mais detalhes veja [aqui](docs/indexacoes/REAMDME.md))
-- [ ] Fatiar o Template HTML [AdminLTE - Bootstrap 5 Admin Dashboard](https://github.com/ColorlibHQ/AdminLTE?tab=readme-ov-file#adminlte---bootstrap-5-admin-dashboard) em componenetes Reacts
+- [X] ~~Fatiar o Template HTML [AdminLTE - Bootstrap 5 Admin Dashboard](https://github.com/ColorlibHQ/AdminLTE?tab=readme-ov-file#adminlte---bootstrap-5-admin-dashboard) em componenetes Reacts ~~
+- [ ] Refatoração do artefato: `src/components/adminLTE/adminLTEReact.tsx`
+- [ ] Converter funcionalidades jQuery para React
 - [ ] Abstrarir Componentes reutilizáveis especificos para o AdminETL
 - [ ] Implementar os rescursos do [Next.js Frameworks](https://nextjs.org/)
-- [ ] Converter funcionalidades jQuery para React
 - [ ] Aplicar na prática os [Recursos do React]()
 
 
