@@ -10,13 +10,19 @@
   },
   "dependencies": {
     "bootstrap": "^5.3.3",
+    "bootstrap-datepicker": "^1.10.0",
     "jquery": "^3.7.1",
+    "jquery-ui": "^1.13.3",
+    "jvectormap": "^2.0.4",
+    "morris": "^0.1.4",
     "next": "14.2.3",
+    "raphael": "^2.3.0",
     "react": "^18",
-    "react-dom": "^18"
+    "react-bootstrap": "^2.10.2",
+    "react-dom": "^18",
+    "sparkline": "^0.2.0"
   },
   "devDependencies": {
-    "@types/jquery": "^3.5.30",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
