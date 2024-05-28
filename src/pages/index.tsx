@@ -1,5 +1,5 @@
 
-import HeaderIndex from "@/components/index/header";
+import MainMeader from "@/components/index/mainHeader";
 import MainSidebar from "@/components/index/mainSiderbar";
 import ContentWrapper from "@/components/index/contentWrapper";
 import MainFooter from "@/components/index/mainFooter";
@@ -12,7 +12,7 @@ export default function Index() {
     <>
       {/*<!-- wrapper -->*/}
       <div className="wrapper">
-        <HeaderIndex />
+        <MainMeader />
         <MainSidebar />
         <ContentWrapper />
         <MainFooter />

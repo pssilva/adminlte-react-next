@@ -86,22 +86,23 @@ A maneira mais fácil de implantar seu aplicativo Next.js é usar a [Vercel Plat
 
 Confira nossa [documentação de implantação do Next.js](https://nextjs.org/docs/deployment) para mais detalhes.
 
-
-
 ---
+
 ## 🔩 Débitos Técnicos
-Aqui temos uma lista do que idenficamos com status de pendente: 
+
+Aqui temos uma lista do que idenficamos com status de pendente:
 
 ### Funcionalidades Aplicação
 
-Segue abaixo (não se limita) os objetivos do presente proejto:
+Segue abaixo (não se limita) os objetivos do presente projeto:
 
 - [X] ~~Formatando documentação README.md~~
 - [X] ~~Indexação do vídeo: [CURSO INTENSIVO de React e Next 13](#CURSO-INTENSIVO-de-React-e-Next-13)~~ (mais detalhes veja [aqui](docs/indexacoes/REAMDME.md))
-- [X] ~~Fatiar o Template HTML [AdminLTE - Bootstrap 5 Admin Dashboard](https://github.com/ColorlibHQ/AdminLTE?tab=readme-ov-file#adminlte---bootstrap-5-admin-dashboard) em componenetes Reacts ~~
+- [X] ~~Fatiar o Template HTML [AdminLTE - Bootstrap 5 Admin Dashboard](https://github.com/ColorlibHQ/AdminLTE?tab=readme-ov-file#adminlte---bootstrap-5-admin-dashboard) em componentes Reacts~~
+- [ ] Convertendo tag HTML header em um componente React;
+- [ ] Abstrarir Componentes reutilizáveis especificos para o AdminETL
 - [ ] Refatoração do artefato: `src/components/adminLTE/adminLTEReact.tsx`
 - [ ] Converter funcionalidades jQuery para React
-- [ ] Abstrarir Componentes reutilizáveis especificos para o AdminETL
 - [ ] Implementar os rescursos do [Next.js Frameworks](https://nextjs.org/)
 - [ ] Aplicar na prática os [Recursos do React]()
 
