@@ -121,6 +121,9 @@ Segue abaixo (não se limita) os objetivos do presente projeto:
 - [ ] Implementar os rescursos do [Next.js Frameworks](https://nextjs.org/)
 - [ ] Aplicar na prática os [Recursos do React]()
     - [ ] [[TRABALHO EM PROGRESSO]](#)
+- [ ] Realizar Análise Exploratória dos seguintes projetos Open-Source: 
+  - [ ] [AdminLTE (v3.2.0)](https://github.com/ColorlibHQ/AdminLTE/releases/tag/v3.2.0)
+  - [ ] [[TRABALHO EM PROGRESSO]]()
 
 ### Atividades - DevOps
 
