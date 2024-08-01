@@ -2,7 +2,7 @@
 
 Aplicando efetivamente na prática a mentalidade de aprendizagem continuada (#livelonglearning).
 
-Indexação de vídeos é uma estratégia para se aplicar técnicas de aprendizagem acelera (revisão espaçada). Onde se corta um vídeo de orientações técnicas. Relacionando um momento do vídeo com um Tema (uma palavra-chave) onde se explica um conceito ou técnica de codificação.
+Indexação de vídeos é uma estratégia para se aplicar técnicas de aprendizagem acelerada ([técnica revisão espaçada](https://youtu.be/XG0CAM_VYdE?si=-YqvN01n5A44NIGC)). Onde se corta um vídeo de orientações técnicas. Relacionando um momento do vídeo com um Tema (uma palavra-chave) onde se explica um conceito ou técnica de codificação.
 
 _**IMPORTANTE**_: Já sabemos que existem ferramentas de Inteligências Artificiais que realizam a transcrição (vídeo para texto)! Mas o objetivo em priorizarmos e fazermos manualmente é realmente ter contato com o conteúdo e realmente absorver o conhecimento e com isso em mente criar os planos de ação necessários para colocar em prática e elaborar em projetos prova de conceito - POC.
 
