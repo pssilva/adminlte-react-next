@@ -102,6 +102,13 @@ Segue abaixo (não se limita) os objetivos do presente projeto:
   - [X] ~~[VIDEO LONGO 13241 – 03.04.07.12.16 – ReactJs do zero – Transformando um HTML e CSS em React | Mão na massa - 016 – Questões](docs/indexacoes/VIDEO%20LONGO%2013241%20–%2003.04.07.12.16%20–%20ReactJs%20do%20zero%20–%20Transformando%20um%20HTML%20e%20CSS%20em%20React%20|%20Mão%20na%20massa%20-%20016%20–%20Questões.pdf)~~. Vídeo longo totalmente indexada e relacionada com os questionários de contextos!
 - [X] ~~Fatiar o Template HTML [AdminLTE - Bootstrap 5 Admin Dashboard](https://github.com/ColorlibHQ/AdminLTE?tab=readme-ov-file#adminlte---bootstrap-5-admin-dashboard) em componentes Reacts~~
 - [ ] Fatiar, em componentes ReactJS reutilizáveis, os seguintes artefatos:
+    - [ ] Index Componentes: 
+      - [ ] `src/components/index/contentWrapper.tsx`
+      - [ ] `src/components/index/controlSidebar.tsx`
+      - [ ] `src/components/index/mainFooter.tsx`
+      - [ ] `src/components/index/mainHeader.tsx`
+      - [ ] `src/components/index/mainSiderbar.tsx`
+    - [ ] [[TRABALHO EM PROGRESSO]](#)
 - [ ] Convertendo tag HTML header em um componente React;
 - [ ] Abstrarir Componentes reutilizáveis especificos para o AdminETL
 - [ ] Refatorações dos seguintes Artefatos: 
