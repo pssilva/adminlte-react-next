@@ -84,7 +84,7 @@ Você pode conferir [o repositório Next.js GitHub](https://github.com/vercel/ne
 
 A maneira mais fácil de implantar seu aplicativo Next.js é usar a [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) dos criadores do Next.js.
 
-Confira nossa [documentação de implantação do Next.js](https://nextjs.org/docs/deployment) para mais detalhes.
+Confira nossa [documentação de implantação do Next.js](https://nextjs.org/docs-repo/deployment) para mais detalhes.
 
 ---
 
@@ -98,8 +98,8 @@ Segue abaixo (não se limita) os objetivos do presente projeto:
 
 - [X] ~~Formatando documentação README.md~~
 - [ ] Indexação completa do vídeos longos: 
-  - [X] ~~[PLAYLIST 7 VÍDEOS – 03.04.07.12.16 – Curso Intensivo de React e Next 13 – Cod3r Cursos – Questões](docs/indexacoes/PLAYLIST%207%20VÍDEOS%20–%2003.04.07.12.16%20–%20Curso%20Intensivo%20de%20React%20e%20Next%2013%20–%20Cod3r%20Cursos%20–%20Questões.pdf)~~ (mais detalhes veja [aqui](docs/indexacoes/REAMDME.md)). Playlist totalmente indexada e relacionada com os questionários de contextos!
-  - [X] ~~[VIDEO LONGO 13241 – 03.04.07.12.16 – ReactJs do zero – Transformando um HTML e CSS em React | Mão na massa - 016 – Questões](docs/indexacoes/VIDEO%20LONGO%2013241%20–%2003.04.07.12.16%20–%20ReactJs%20do%20zero%20–%20Transformando%20um%20HTML%20e%20CSS%20em%20React%20|%20Mão%20na%20massa%20-%20016%20–%20Questões.pdf)~~. Vídeo longo totalmente indexada e relacionada com os questionários de contextos!
+  - [X] ~~[PLAYLIST 7 VÍDEOS – 03.04.07.12.16 – Curso Intensivo de React e Next 13 – Cod3r Cursos – Questões](docs-repo/indexacoes/PLAYLIST%207%20VÍDEOS%20–%2003.04.07.12.16%20–%20Curso%20Intensivo%20de%20React%20e%20Next%2013%20–%20Cod3r%20Cursos%20–%20Questões.pdf)~~ (mais detalhes veja [aqui](docs-repo/indexacoes/REAMDME.md)). Playlist totalmente indexada e relacionada com os questionários de contextos!
+  - [X] ~~[VIDEO LONGO 13241 – 03.04.07.12.16 – ReactJs do zero – Transformando um HTML e CSS em React | Mão na massa - 016 – Questões](docs-repo/indexacoes/VIDEO%20LONGO%2013241%20–%2003.04.07.12.16%20–%20ReactJs%20do%20zero%20–%20Transformando%20um%20HTML%20e%20CSS%20em%20React%20|%20Mão%20na%20massa%20-%20016%20–%20Questões.pdf)~~. Vídeo longo totalmente indexada e relacionada com os questionários de contextos!
 - [X] ~~Fatiar o Template HTML [AdminLTE - Bootstrap 5 Admin Dashboard](https://github.com/ColorlibHQ/AdminLTE?tab=readme-ov-file#adminlte---bootstrap-5-admin-dashboard) em componentes Reacts~~
 - [ ] Fatiar, em componentes ReactJS reutilizáveis, os seguintes artefatos:
     - [ ] Index Componentes: 
@@ -129,10 +129,10 @@ Segue abaixo (não se limita) os objetivos do presente projeto:
 
 ### Atividades - DevOps
 
-- [ ] Implementação dos Pipelines CI/CD de Implatação num Provedor de Nuvem (mais detalhes veja [aqui](docs/provedores_nuvem/README.md)).
-- [ ] Implementar restrições de Commit no Git: vinculado com o ID de regra de negócio e ID do checklist de validação das entragas de funcionalidades (mais detalhes [aqui](docs/checklists/README.md))
+- [ ] Implementação dos Pipelines CI/CD de Implatação num Provedor de Nuvem (mais detalhes veja [aqui](docs-repo/provedores_nuvem/README.md)).
+- [ ] Implementar restrições de Commit no Git: vinculado com o ID de regra de negócio e ID do checklist de validação das entragas de funcionalidades (mais detalhes [aqui](docs-repo/checklists/README.md))
 - [ ] Implementar Dockerfiles para Kubernetes
-- [ ] Colocar em prática o Desenvolvimento Orientado a Interface onde se deve desacoplar a aplicação do procedor de nuvem (Princípio da Segregação de Interface (ISP) - SOLID) (mais detalhes veja [aqui](docs/provedores_nuvem/README.md))
+- [ ] Colocar em prática o Desenvolvimento Orientado a Interface onde se deve desacoplar a aplicação do procedor de nuvem (Princípio da Segregação de Interface (ISP) - SOLID) (mais detalhes veja [aqui](docs-repo/provedores_nuvem/README.md))
 - [ ] Implementar Arquitetura Orienta a Eventos ([EDA](https://aws.amazon.com/pt/what-is/eda/))
 
 ### Suporte / Sustentação
@@ -141,7 +141,7 @@ Segue abaixo (não se limita) os objetivos do presente projeto:
 - [ ] Implementar cache (Redis)
 
 ### Segurança
-- [ ] Aplicar o checklist (veja [aqui](docs/checklists/README.md)) das [vulnerabilidades mais recorrentes (Top 10 OWASP (Open Web Application Security Project))](https://owasp.org/Top10/) nas dependências usadas na solução
+- [ ] Aplicar o checklist (veja [aqui](docs-repo/checklists/README.md)) das [vulnerabilidades mais recorrentes (Top 10 OWASP (Open Web Application Security Project))](https://owasp.org/Top10/) nas dependências usadas na solução
 - [ ] implementar pentests para [vulnerabilidades Top 10 OWASP](https://owasp.org/Top10/)
 - [ ] [Spring Boot externalized configuration](https://docs.spring.io/spring-boot/reference/features/external-config.html): Externalização das configurações dos parâmetros de uma aplicação
 - [ ] Aplicar os checklists  
@@ -159,12 +159,12 @@ Tendo em mente que sempre buscamos melhorar o protocolo de trabalho operacinal d
 _**NOTA**_: Não se trata de ficar ditando regras no trabalho da equipe, mas sim melhorar o [meu operacional pessoal de trabalho](#da-analise-exploratoria) e com isso agregar valor melhorando a perfomance:
 
 --- 
-<img src="docs/imgs/pdca.png" alt="PDCA: Aplicar na prática o empirismo" title="PDCA" style="width:475px;"/>
+<img src="docs-repo/imgs/pdca.png" alt="PDCA: Aplicar na prática o empirismo" title="PDCA" style="width:475px;"/>
 
 --- 
 
 <a href="#FOWLER-Martin" id="da-analise-exploratoria">
-<img src="docs/imgs/DA - Análise de Repositório Genárico.drawio.png" alt="Diagrama: Documentação Elaboração do Diagrama de Atividade da Análise Exploratória Genérico" title="Documentação: Processo Genérico: Atividades da Análise Exploratória de um Repositório"/>
+<img src="docs-repo/imgs/DA - Análise de Repositório Genárico.drawio.png" alt="Diagrama: Documentação Elaboração do Diagrama de Atividade da Análise Exploratória Genérico" title="Documentação: Processo Genérico: Atividades da Análise Exploratória de um Repositório"/>
 </a>
 
 ---
@@ -176,7 +176,7 @@ Seque aqui as ferramentas utilizadas na construção presente projeto:
 * [AdminLTE - Bootstrap 5 Admin Dashboard](https://github.com/ColorlibHQ/AdminLTE?tab=readme-ov-file#adminlte---bootstrap-5-admin-dashboard)
 * [React](https://pt-br.legacy.reactjs.org/)
 * [Node.js](https://nodejs.org/en/)
-* [Typescript](https://www.typescriptlang.org/docs/)
+* [Typescript](https://www.typescriptlang.org/docs-repo/)
 * [Next.js Frameworks](https://nextjs.org/)
 * [Docker](https://www.docker.com/get-started/)
 * [NVM](https://github.com/nvm-sh/nvm?tab=readme-ov-file#intro) - Node Version Manager
@@ -233,7 +233,7 @@ Seque abaixo as referências bibliográficas usadas no presente projeto:
 ---
 [<a id="CURSO-INTENSIVO-de-React-e-Next-13">CURSO INTENSIVO de React e Next 13</a>]: Direção: Autor da playlist Canal do Youtube Cod3r Cursos: Leonardo Leitão. Produção: Autor da playlist Canal do Youtube Cod3r Cursos: Leonardo Leitão. Realização: Autor da playlist Canal do Youtube Cod3r Cursos: Leonardo Leitão. Roteiro: **Leonardo Leitão**. Fotografia: N/A. Intérpretes: N/A; Local: Publicado no Canal do Youtube: Cod3r Cursos, 25 de abr. de 2023. (duração 08:09:20 hs), demais características (HD, som, cor, legenda, stream). Disponível em: < https://www.youtube.com/playlist?list=PLdPPE0hUkt0q_XT8zDe313e27wFQ-k9fe >. Acesso em: 16 mai. 2024.
 
-NOTA: para deixar evidenciado, segue a [indexação da playlist](./docs/indexacoes/PLAYLIST%207%20VÍDEOS%20–%2003.04.07.12.16%20–%20Curso%20Intensivo%20de%20React%20e%20Next%2013%20–%20Cod3r%20Cursos%20–%20Questões.pdf) (se trata de um questionário com o mapeamento do link de um tema / assunto no momemento onde se explica um conceito ou uma técnica de codificação).
+NOTA: para deixar evidenciado, segue a [indexação da playlist](./docs-repo/indexacoes/PLAYLIST%207%20VÍDEOS%20–%2003.04.07.12.16%20–%20Curso%20Intensivo%20de%20React%20e%20Next%2013%20–%20Cod3r%20Cursos%20–%20Questões.pdf) (se trata de um questionário com o mapeamento do link de um tema / assunto no momemento onde se explica um conceito ou uma técnica de codificação).
 
 ---
 
