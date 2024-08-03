@@ -1,0 +1,26 @@
+{
+  "name": "pssilva/adminlte-react-next",
+  "description": "Converter o projeto AdminLTE - Bootstrap 5 Admin Dashboard para um projeto React + Next.js Frameworks.",
+  "homepage": "https://github.com/pssilva",
+  "keywords": [
+    "css",
+    "js",
+    "less",
+    "responsive",
+    "back-end",
+    "template",
+    "theme",
+    "web",
+    "admin"
+  ],
+  "authors": [
+    {
+      "name": "Paulo Sérgio",
+      "email": "pss1suporte@gmail.com"
+    }
+  ],
+  "license": "MIT",
+  "support": {
+    "issues": "https://github.com/pssilva/adminlte-react-next/issues"
+  }
+}

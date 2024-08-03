@@ -20,7 +20,50 @@ Projeto inicializado com o [`create-next-app`](https://github.com/vercel/next.js
 
 ### 📋 Pré-requisitos
 
-De que coisas precisamos para instalar o software e como instalá-lo?
+Tomaremos como o projeto base [AdminLTE Release 3.2.0](https://github.com/ColorlibHQ/AdminLTE/releases/tag/v3.2.0). É o projeto na release base que usaremos para converter para o componentes da [Bibliotéca ReactJS](https://pt-br.legacy.reactjs.org/).
+
+
+E para baixar especificamente a release, use os comandos: 
+
+```bash
+
+export BRANCH_RELEASE_VERSION="v3.2.0"
+export GITHUB_URL="https://github.com/ColorlibHQ/AdminLTE.git"
+export ARTEFACT_ID="AdminLTE-original-${BRANCH_RELEASE_VERSION}"
+
+mkdir -p "${HOME}/projetos"
+cd $HOME/projetos
+
+git clone --depth 1 -b "${BRANCH_RELEASE_VERSION}" "${GITHUB_URL}" "${ARTEFACT_ID}" 
+cd "$HOME/projetos/${ARTEFACT_ID}"
+
+git checkout -b develop
+code .
+
+```
+
+_**NOTA IMPORTANTE**_: Temos que usar o Node na versão 14 para usaremos o comando `nvm install v14.21.3`! 
+
+Conforme orientado no artefato: `${HOME}/projetos/AdminLTE-original-v3.2.0/Dockerfile`
+
+
+Depois de baixarmos, para execurar o Projeto Base Original use os comandos: 
+
+```bash
+
+export BRANCH_RELEASE_VERSION="v3.2.0"
+export ARTEFACT_ID="AdminLTE-original-${BRANCH_RELEASE_VERSION}"
+
+cd "${HOME}/projetos/${ARTEFACT_ID}"
+nvm install v14.21.3
+npm install
+npm run dev
+
+```
+
+#### Ferramentas Necessátias: 
+
+Para obter o presente projeto use os seguintes comandos:
 
 ```bash
 ##############################################
@@ -63,6 +106,7 @@ code .
 ```
 
 Em um terminal execute a aplicação com os seguintes linha de comandos:
+
 ```bash
 cd "${HOME}/projetos/adminlte-react-next"
 npm install 
@@ -102,12 +146,28 @@ Segue abaixo (não se limita) os objetivos do presente projeto:
   - [X] ~~[VIDEO LONGO 13241 – 03.04.07.12.16 – ReactJs do zero – Transformando um HTML e CSS em React | Mão na massa - 016 – Questões](docs-repo/indexacoes/VIDEO%20LONGO%2013241%20–%2003.04.07.12.16%20–%20ReactJs%20do%20zero%20–%20Transformando%20um%20HTML%20e%20CSS%20em%20React%20|%20Mão%20na%20massa%20-%20016%20–%20Questões.pdf)~~. Vídeo longo totalmente indexada e relacionada com os questionários de contextos!
 - [X] ~~Fatiar o Template HTML [AdminLTE - Bootstrap 5 Admin Dashboard](https://github.com/ColorlibHQ/AdminLTE?tab=readme-ov-file#adminlte---bootstrap-5-admin-dashboard) em componentes Reacts~~
 - [ ] Fatiar, em componentes ReactJS reutilizáveis, os seguintes artefatos:
-    - [ ] Index Componentes: 
-      - [ ] `src/components/index/contentWrapper.tsx`
-      - [ ] `src/components/index/controlSidebar.tsx`
-      - [ ] `src/components/index/mainFooter.tsx`
-      - [ ] `src/components/index/mainHeader.tsx`
-      - [ ] `src/components/index/mainSiderbar.tsx`
+  - [ ] As [16 Funcionalidades AdminLTE](#) que se encontram em `AdminLTE (v3.2.0)/build/js`: 
+    - [ ] `CardRefresh.js`
+    - [ ] `CardWidget.js	`
+    - [ ] `ControlSidebar.js	`
+    - [ ] `DirectChat.js	`
+    - [ ] `ExpandableTable.js`
+    - [ ] `Fullscreen.js	`
+    - [ ] `IFrame.js	`
+    - [ ] `Layout.js	`
+    - [ ] `PushMenu.js	`
+    - [ ] `Dropdown.js	`
+    - [ ] `NavbarSearch.js	`
+    - [ ] `SidebarSearch.js`
+    - [ ] `Toasts.js`
+    - [ ] `TodoList.js`
+    - [ ] `Treeview.js`
+  - [ ] Index Componentes `src/components/index`: 
+    - [ ] `contentWrapper.tsx`
+    - [ ] `controlSidebar.tsx`
+    - [ ] `mainFooter.tsx`
+    - [ ] `mainHeader.tsx`
+    - [ ] `mainSiderbar.tsx`
     - [ ] [[TRABALHO EM PROGRESSO]](#)
 - [ ] Convertendo tag HTML header em um componente React;
 - [ ] Abstrarir Componentes reutilizáveis especificos para o AdminETL
