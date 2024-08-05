@@ -1,6 +1,6 @@
 
 
-export default function ContentWrapper(){
+export default function ControlSidebar(){
     return <>
       {/*<!-- Control Sidebar -->*/}
       <aside className="control-sidebar control-sidebar-dark"></aside>

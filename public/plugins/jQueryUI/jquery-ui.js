@@ -817,7 +817,7 @@ $.Widget.prototype = {
 	}
 };
 
-$.each( { show: "fadeIn", hide: "fadeOut" }, function( method, defaultEffect ) {
+$.each( { show: "", hide: "fadeOut" }, function( method, defaultEffect ) {
 	$.Widget.prototype[ "_" + method ] = function( element, options, callback ) {
 		if ( typeof options === "string" ) {
 			options = { effect: options };
@@ -3845,7 +3845,7 @@ function Datepicker() {
 	this._defaults = { // Global defaults for all the date picker instances
 		showOn: "focus", // "focus" for popup on focus,
 			// "button" for trigger button, or "both" for either
-		showAnim: "fadeIn", // Name of jQuery animation for popup
+		showAnim: "", // Name of jQuery animation for popup
 		showOptions: {}, // Options for enhanced animations
 		defaultDate: null, // Used when field is blank: actual date,
 			// +/-number for offset from today, null for today
@@ -4660,7 +4660,7 @@ $.extend(Datepicker.prototype, {
 				inst.dpDiv.hide(showAnim, $.datepicker._get(inst, "showOptions"), duration, postProcess);
 			} else {
 				inst.dpDiv[(showAnim === "slideDown" ? "slideUp" :
-					(showAnim === "fadeIn" ? "fadeOut" : "hide"))]((showAnim ? duration : null), postProcess);
+					(showAnim === "" ? "fadeOut" : "hide"))]((showAnim ? duration : null), postProcess);
 			}
 
 			if (!showAnim) {

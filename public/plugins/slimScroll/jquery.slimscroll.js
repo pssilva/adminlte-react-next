@@ -441,8 +441,8 @@
             releaseScroll = true;
             return;
           }
-          bar.stop(true,true).fadeIn('fast');
-          if (o.railVisible) { rail.stop(true,true).fadeIn('fast'); }
+          bar.stop(true,true).('fast');
+          if (o.railVisible) { rail.stop(true,true).('fast'); }
         }
 
         function hideBar()
