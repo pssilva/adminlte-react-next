@@ -106,3 +106,7 @@ TODO
 test.html
 ad.js
 /.cache/
+/.cache/**/*
+
+
+..bfg-report
