@@ -83,6 +83,16 @@ bower_components/
 /plugins/jquery-ui/external/jquery/jquery.js
 /plugins/inputmask/bindings/
 /plugins/flot/plugins/jquery*.js
+/plugins/filterizr
+/plugins/flot
+/plugins/icheck-bootstrap
+/plugins/ion-rangeslider
+/plugins/jquery-mousewheel
+/plugins/jquery-ui
+/plugins/raphael
+/plugins/summernote
+/plugins/sweetalert2-theme-bootstrap-4
+/plugins/uplot
 !/plugins/flot/plugins/jquery.flot.*.js
 !/plugins/**/LICENSE.md
 !/plugins/**/LICENSE.txt
@@ -105,6 +115,7 @@ bower_components/
 TODO
 test.html
 ad.js
+.cache/
 /.cache/
 /.cache/**/*
 
