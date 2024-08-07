@@ -118,6 +118,4 @@ ad.js
 .cache/
 /.cache/
 /.cache/**/*
-
-
 ..bfg-report
